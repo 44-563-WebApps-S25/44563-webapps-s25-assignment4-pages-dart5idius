@@ -1,4 +1,4 @@
-/* General styles for speech, stage-direction, and name */
+
 .speech {
     font-family: 'Times New Roman', serif;
     font-size: 16px;
@@ -24,15 +24,18 @@
     font-size: 18px;
     color: black;
     font-weight: bold;
+    backdrop-filter: blur(10px) saturate(70%);
 }
 
 .name:hover {
-    background-color: #93dbdb; 
+    background-color: #58d2d2; 
     color: #333; 
     text-shadow: 2px 2px 8px rgba(207, 93, 150, 0.8); 
     border: 2px solid #ff69b4; 
     border-radius: 5px; 
     padding: 10px; 
+    background: rgba(200, 152, 152, 0.3);
+    filter: blur(2px);
 }
 
 .ADRIANA {
